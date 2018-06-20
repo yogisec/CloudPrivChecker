@@ -45,7 +45,7 @@ def Main():
     1: AWS \n 2: GCP \n 3: Azure')
 
     if platform == 1:
-        awareness = AWSAwarness.IAM()
+        awareness = IAM()
         #users = AWSAwarness.GetUsers()
     else:
         print('Still building')
